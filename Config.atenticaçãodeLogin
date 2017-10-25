@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<configuration>
+  <system.web>
+      <!--Regra de Acesso-->
+    <!--Usuario anonimo não autenticado não pode entrar na admin-->
+    <authorization>
+      <deny users="?"/>
+    </authorization>
+  </system.web>
+</configuration>
